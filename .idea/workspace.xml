@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56d615a2-1411-433c-9500-7c2cde99c236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Analizer_price_lists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="56d615a2-1411-433c-9500-7c2cde99c236" name="Changes" comment="Анализирование файлов .csv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +55,27 @@
       <option name="presentableId" value="Default" />
       <updated>1734542565011</updated>
     </task>
+    <task id="LOCAL-00001" summary="Анализирование файлов .csv">
+      <option name="closed" value="true" />
+      <created>1734628999759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734628999759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Анализирование файлов .csv">
+      <option name="closed" value="true" />
+      <created>1734629031821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734629031821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Анализирование файлов .csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Анализирование файлов .csv" />
   </component>
 </project>

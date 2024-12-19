@@ -42,7 +42,7 @@ class PriceMachine:
                                      )
 
         self.data = price
-        return self.data
+        return 'Выгрузка данных выполнена!'
 
     def export_to_html(self, fname='output.html'):
         self.result = '''
