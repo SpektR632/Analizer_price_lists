@@ -28,7 +28,7 @@ class PriceMachine:
                 фасовка
         """
         price = []
-        for i in os.listdir(file_path):
+        for i in os.listdir(f'{os.getcwd()}/{file_path}'):
             if 'price' in i:
                 with open(f'{file_path}/{i}', encoding='utf-8') as f:
                     rows = csv.DictReader(f, delimiter=',')
@@ -119,8 +119,7 @@ class PriceMachine:
     Логика работы программы
 """
 pm = PriceMachine()
-pm.load_prices('C:/Users/Роман/PycharmProjects/Analizer_price_lists/'
-               'Практическое задание _Анализатор прайс-листов._')
+print(pm.load_prices('Практическое задание _Анализатор прайс-листов._'))
 pm.find_text(input("Введите текст для поиска:\n"))
 
 print(pm.export_to_html())
