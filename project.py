@@ -62,9 +62,7 @@ class PriceMachine:
                     <th>Цена за кг.</th>
                 </tr>
         '''
-        number = 0
-        for product in self.data:
-            number = self._search_product_price_weight(number)
+        for number, product in enumerate(self.data, start=1):
             result += f"""
                     <tr>
                         <td>{number}</td>
