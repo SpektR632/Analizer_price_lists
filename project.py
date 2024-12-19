@@ -45,7 +45,7 @@ class PriceMachine:
         return 'Выгрузка данных выполнена!'
 
     def export_to_html(self, fname='output.html'):
-        self.result = '''
+        result = '''
         <!DOCTYPE html>
         <html>
         <head>
@@ -65,7 +65,7 @@ class PriceMachine:
         number = 0
         for product in self.data:
             number = self._search_product_price_weight(number)
-            self.result += f"""
+            result += f"""
                     <tr>
                         <td>{number}</td>
                         <td>{product['название']}</td>
@@ -76,14 +76,15 @@ class PriceMachine:
                     </tr>
                 """
 
-        self.result += """
+        result += """
                 </table>
             </body>
             </html>
             """
 
         with open(fname, 'w', encoding='utf-8') as file:
-            file.write(self.result)
+            file.write(result)
+        self.result = result
         return 'Файл успешно создан!'
 
     def _search_product_price_weight(self, headers):
